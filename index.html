@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenevatt — Тату-студия</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/иконка.png">
+</head>
+<body>
+
+    <header class="header container">
+        <div class="logo">
+            <a href="/">
+            <img src="image/лого.png" alt="tenevatt" class="logo-img">
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="https://www.figma.com/design/95udu4GvHYoWYCyqHZs4h5/tenevatt?node-id=117-53&t=C7H9jlTRwr1xTTAJ-1" class="nav-link">Гайдлайн</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section container">
+            <div class="hero-image-wrapper">
+                <img src="image/desktop-1.jpg" alt="Tenevatt Hero" class="hero-image">
+            </div>
+        </section>
+
+        <section class="content-section container">
+            <p class="tagline">Искусство, которое дышит вместе с тобой.</p>
+            <div class="scroll-arrow">
+                <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12L23 1" stroke="black" stroke-width="1.5"/>
+                </svg>
+            </div>
+        </section>
+    </main>
+
+<section class="about-minimal container">
+    <div class="ornament-wrapper">
+        <img src="image/ornament.png" alt="" class="ornament-img">
+    </div>
+
+    <div class="about-content">
+        <h2 class="section-title-outline">О СТУДИИ</h2>
+        
+       <div class="text-blocks">
+            <p class="body-text">tenevatt — это больше, чем студия художественной татуировки. Это пространство, где татуировка рассматривается как естественное продолжение вашего тела.</p>
+            
+            <p class="body-text">Мы специализируемся на стиле fine-line: тонких, почти невесомых линиях, которые сохраняют свою четкость и изящество спустя годы.</p>
+            
+            <p class="body-text">В tenevatt мы создали атмосферу абсолютной стерильности и визуального спокойствия. Для нас важен не только результат, но и ваш путь к нему.</p>
+            
+            <p class="extralight-signature">Мы не просто переносим чернила под кожу. Мы создаем искусство, которое дышит вместе с вами.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="guideline-intro">
+    <div class="container">
+        <!-- Заголовок: занимает левую часть (примерно до 6-7 колонки) -->
+        <h1 class="title-outline">ГАЙДЛАЙН</h1>
+
+        <!-- Верхний текст: выровнен вправо, занимает колонки с 4 по 12 -->
+        <div class="text-block top-text">
+            <p>Концепция tenevatt строится на принципах архитектурной чистоты, ювелирной точности и обилия «воздуха» в макетах. Ниже представлены первые ознакомительные страницы гайдлайна.</p>
+        </div>
+
+       <!-- Окно слайдера -->
+        <div class="intro-slider-area">
+        <div class="slider-window">
+            <div class="slider-track" id="sliderTrack">
+                <!-- Все фото гайдлайна подряд -->
+                <div class="photo-item"><img src="image/главная.jpg" alt="1"></div>
+                <div class="photo-item"><img src="image/концепция.jpg" alt="2"></div>
+                <div class="photo-item"><img src="image/Разделы 1.jpg" alt="3"></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="slider-arrows">
+            <button class="arrow prev" onclick="moveSlider(-1)">&#10094;</button>
+            <button class="arrow next" onclick="moveSlider(1)">&#10095;</button>
+        </div>
+        <!-- Нижний текст: также выровнен вправо -->
+        <div class="text-block bottom-text">
+            <p>На странице представлен первый раздел - логотип, там есть описание создания логотипа, охранного поля и минимального размера. На следующей уже представлен сам логотип, его построение, а также варианты использования. Также логотипы можно листать при помощи перетаскивания.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="guideline-details">
+    <div class="container">
+       
+
+        <!-- Сетка с карточками (Цветовая палитра и Типографика) -->
+        <div class="details-grid">
+            <div class="detail-card">
+                <img src="image/1.jpg" alt="логотип">
+            </div>
+            <div class="detail-card">
+                <img src="image/2.jpg" alt="лого">
+            </div>
+        </div>
+ 
+        <!-- Первый текстовый блок -->
+        <div class="text-info block-1">
+            <p>Далее второй раздел - цветовая палитра. Описание основного черного и дополнительных оттенков серого, а также указание кодов цветов для различных сред с интерактивом.
+               При помощи кнопок hex, rgb, cmyk, код цвета меняется на определенный формат.
+            </p>
+        </div>
+
+        <!-- Второй текстовый блок (смещен еще правее) -->
+        <div class="text-info block-2">
+            <p>Третий раздел - типогрфика. Обоснование выбора шрифта Manrope как единого инструмента для всей текстовой коммуникации.Демонстрация различных начертаний и размеров.  
+            </p> 
+        </div>
+       <div class="text-info block-3">
+             <p>При нажатии на кнопку «изменить», высвечивается окошко с кнопками названия начертаний, и при нажатии на кнопку нужную, надпись с левой стороны меняется на нужное начертание. 
+            </p> 
+         </div>   
+    </div>
+</section>
+
+<section class="guideline-p">
+    <div class="container">
+       
+
+        <!-- Сетка с карточками (Цветовая палитра и Типографика) -->
+        <div class="details-grid-p">
+            <div class="detail-card-p">
+                <img src="image/3.jpg" alt="Цветовая палитра">
+            </div>
+            <div class="detail-card-p">
+                <img src="image/4.jpg" alt="Типографика">
+            </div>
+        </div>
+</section>
+
+
+
+<section class="guideline-assets">
+    <div class="container">
+        
+        <!-- Текст слева -->
+        <div class="assets-text col-1-4">
+            <p>Группа страниц, демонстрирующая айдентику на физических объектах: визитках, сертификатах и памятках по уходу</p>
+        </div>
+
+        <!-- Слайдер справа -->
+        <div class="assets-slider-container col-5-12">
+            <div class="slider-window">
+                <div class="slider-track" id="sliderTrack2">
+                    <!-- Здесь 4 фото -->
+                    <div class="photo-item single"><img src="image/5.jpg" alt="1"></div>
+                    <div class="photo-item single"><img src="image/6.jpg" alt="2"></div>
+                    <div class="photo-item single"><img src="image/7.jpg" alt="3"></div>
+                    <div class="photo-item single"><img src="image/8.jpg" alt="4"></div>
+                </div>
+            </div>
+
+            <!-- Стрелки управления именно для этого слайдера -->
+            <div class="slider-arrows">
+                <button class="arrow prev" onclick="moveSlider2(-1)">&#10094;</button>
+                <button class="arrow next" onclick="moveSlider2(1)">&#10095;</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="guideline-final">
+    <div class="container">
+       
+        <!-- Первый текстовый блок -->
+        <div class="text-info block-3">
+            <p>Переход в темный режим, подчеркивающий технологичность и современность бренда.
+Digital-мокап: Финальный акцент — демонстрация интерфейса или цифрового носителя.</p>
+        </div>
+
+        <!-- Сетка с карточками (Цветовая палитра и Типографика) -->
+        <div class="details-grid-f">
+            <div class="detail-card-f">
+                <img src="image/9.jpg" alt="dig">
+            </div>
+            <div class="detail-card">
+                <img src="image/10.jpg" alt="mockup">
+            </div>
+        </div>
+ 
+    </div>
+</section>
+
+<section class="final-cta">
+    <div class="container">
+        <div class="cta-content">
+            <p class="cta-text">
+                Мы верим, что чистота линий должна соблюдаться во всем: от татуировки на коже до каждой детали нашего бренда. Полная визуальная история проекта собрана в нашем руководстве.
+            </p>
+            <!-- Замени href="ссылка" на нужный адрес (например, на PDF файл или другую страницу) -->
+          
+            <a href="https://www.figma.com/design/95udu4GvHYoWYCyqHZs4h5/tenevatt?node-id=117-53&t=C7H9jlTRwr1xTTAJ-1" class="btn-outline">СМОТРЕТЬ ГАЙДЛАЙН</a>
+
+            <div class="cta-actions"></div>
+
+            <a href="#top" class="back-top-link">
+                    Вернуться наверх <span class="arrow-up">↑</span>
+                </a>
+           </div>
+        </div>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="container">
+        <!-- Левая часть -->
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="image/лого б 1.png" alt="tenevatt">
+            </div>
+            <p class="copyright">© 2026 тату-студия</p>
+            
+            <div class="social-links">
+                <a href="" target="_blank">
+                    <img src="image/Vector.svg" alt="VK" class="social-icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- Правая часть -->
+        <div class="footer-right">
+            <a href="https://www.figma.com/design/95udu4GvHYoWYCyqHZs4h5/tenevatt?node-id=117-53&t=C7H9jlTRwr1xTTAJ-1" class="footer-link">Гайдлайн</a>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
