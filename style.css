@@ -721,27 +721,23 @@ html {
 
   
      .header {
-        display: grid;
-        grid-template-columns: 1fr auto;
+        display: flex;
         justify-content: space-between;
         align-items: center;
-        height: auto;
         padding: 20px 16px;
     }
 
     .logo {
-        grid-column: 1;
         margin: 0;
     }
 
     .logo img {
-    width: 90px;
+    width: 105px;
     height: auto;
     display: block;
    }
 
     .nav {
-        grid-column: 2;
         text-align: right;
         margin: 0;
         white-space: nowrap;
