@@ -235,7 +235,10 @@ section.content-section {
 
 
 .brand {
+    grid-column: 1 / 13;
+    display: grid;
     margin-top: 30 !important;
+    margin-bottom: 120px;
 }
 
 .brand-card {
