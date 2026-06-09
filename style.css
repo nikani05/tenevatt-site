@@ -723,24 +723,28 @@ html {
      .header {
         display: grid;
         grid-template-columns: 1fr auto;
+        justify-content: space-between;
         align-items: center;
         height: auto;
-        padding: 20px 0;
+        padding: 20px 16px;
     }
 
     .logo {
         grid-column: 1;
+        margin: 0;
     }
 
     .logo img {
-    width: 180px;
+    width: 90px;
     height: auto;
+    display: block;
    }
 
     .nav {
         grid-column: 2;
         text-align: right;
-        margin-top: 0;
+        margin: 0;
+        white-space: nowrap;
     }
 
     .ornament-wrapper,
