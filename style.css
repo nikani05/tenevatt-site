@@ -30,12 +30,10 @@ body {
     align-items: center;
 }
 
-.logo {
-    grid-column: 1 / 3;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    text-transform: lowercase;
+.logo img {
+    width: 180px;
+    height: auto;
+    display: block;
 }
 
 .nav {
