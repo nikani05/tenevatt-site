@@ -752,6 +752,7 @@ html {
         grid-column: 1 / -1 !important;
         width: 100% !important;
         max-width: none !important;
+         background: rgba(255,0,0,.1);
     }
 
     .up-text p,
