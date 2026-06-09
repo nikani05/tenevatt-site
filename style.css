@@ -727,9 +727,12 @@ html {
         padding: 20px 16px;
     }
 
-    .logo {
+    .logo,
+    .nav {
         margin: 0;
+        padding: 0;
     }
+
 
     .logo img {
     width: 105px;
@@ -737,9 +740,13 @@ html {
     display: block;
    }
 
+    .nav-link {
+        display: block;
+        line-height: 1;
+    }
+
     .nav {
         text-align: right;
-        margin: 0;
         white-space: nowrap;
     }
 
