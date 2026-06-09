@@ -715,13 +715,30 @@ html {
         display: block !important;
     }
 
-    .header {
+  
+     .header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
         height: auto;
         padding: 20px 0;
     }
 
-    .logo,
-    .nav,
+    .logo {
+        grid-column: 1;
+    }
+
+    .logo img {
+    width: 180px;
+    height: auto;
+   }
+
+    .nav {
+        grid-column: 2;
+        text-align: right;
+        margin-top: 0;
+    }
+
     .ornament-wrapper,
     .about-content,
     .assets-text,
