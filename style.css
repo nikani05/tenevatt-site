@@ -753,10 +753,6 @@ html {
         grid-column: 1 / -1;
     }
 
-    .nav {
-        text-align: left;
-        margin-top: 15px;
-    }
 
     .title-outline img {
         width: 100% !important;
